@@ -79,8 +79,8 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 
-REQD_PERMISSIONS = "https://t.me/SpEcHlDe/857"
-GIT_REPO_LINK = "https://github.com/SpEcHiDe/DeleteMessagesRoBot"
+REQD_PERMISSIONS = "https://t.me/GapemooN"
+GIT_REPO_LINK = "https://github.com/impta/DelemooN"
 """ strings to be used in the bot """
 START_MESSAGE = get_config("START_MESSAGE", (
     "I'm a bot that can delete <s>all</s> "
@@ -93,10 +93,10 @@ START_MESSAGE = get_config("START_MESSAGE", (
 START_COMMAND = get_config("START_COMMAND", "start")
 DEL_ALL_COMMAND = get_config("DEL_ALL_COMMAND", "delall")
 BEGINNING_DEL_ALL_MESSAGE = get_config("BEGINNING_DEL_ALL_MESSAGE", (
-    "trying to delete all messages"
+    "میپاکم بصب"
 ))
 IN_CORRECT_PERMISSIONS_MESSAGE = get_config("IN_CORRECT_PERMISSIONS_MESSAGE", (
-    "something went wrong. \n\n"
+    "ریدم. \n\n"
     "<code>{}</code>"
     "\n\n"
     f"please verify <a href='{REQD_PERMISSIONS}'>all permissions</a>, "

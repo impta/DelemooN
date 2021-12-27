@@ -1,3 +1,2 @@
-heroku restart -a delemoon
-web:python server.js
+web:python app.js
 worker:python -m bot
